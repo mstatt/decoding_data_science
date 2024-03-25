@@ -31,14 +31,29 @@
       background-color: #000000;
     }
 
-.modal-header{
-  color: #ffffff;
-  background-image:-webkit-linear-gradient(top,#d9534f 0,#c12e2a 100%);background-image:-o-linear-gradient(top,#d9534f 0,#c12e2a 100%);background-image:-webkit-gradient(linear,left top,left bottom,from(#d9534f),to(#c12e2a));background-image:linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#b92c28;
-}
-.modal-footer{
-  color: #ffffff;
-  background-image:-webkit-linear-gradient(top,#d9534f 0,#c12e2a 100%);background-image:-o-linear-gradient(top,#d9534f 0,#c12e2a 100%);background-image:-webkit-gradient(linear,left top,left bottom,from(#d9534f),to(#c12e2a));background-image:linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#b92c28;
-}
+    .modal-header {
+      color: #ffffff;
+      background-image: -webkit-linear-gradient(top, #d9534f 0, #c12e2a 100%);
+      background-image: -o-linear-gradient(top, #d9534f 0, #c12e2a 100%);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a));
+      background-image: linear-gradient(to bottom, #d9534f 0, #c12e2a 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+      filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+      background-repeat: repeat-x;
+      border-color: #b92c28;
+    }
+
+    .modal-footer {
+      color: #ffffff;
+      background-image: -webkit-linear-gradient(top, #d9534f 0, #c12e2a 100%);
+      background-image: -o-linear-gradient(top, #d9534f 0, #c12e2a 100%);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a));
+      background-image: linear-gradient(to bottom, #d9534f 0, #c12e2a 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+      filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+      background-repeat: repeat-x;
+      border-color: #b92c28;
+    }
   </style>
 
   <link type="text/css" href="base.css" rel="stylesheet" />
@@ -74,8 +89,9 @@
             <div id="inner-details"></div>
             <hr>
             <center>
-              
-              <button type='button' class='btn btn-danger' data-toggle='modal' data-target='#videoList'>Video List</button>
+
+              <button type='button' class='btn btn-danger' data-toggle='modal' data-target='#videoList'>Video
+                List</button>
 
 
             </center>
@@ -104,186 +120,193 @@
     crossorigin="anonymous"></script>
 
 
-<!-- Modal -->
-<div class="modal fade " id="introvideo" tabindex="-1" role="dialog" aria-labelledby="introvideoLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="introvideolLabel">Introduction Video</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="https://github.com/mstatt/decoding_data_science/raw/main/DDS_Intro.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-<!-- Modal -->
-<div class="modal fade " id="videoList" tabindex="-1" role="dialog" aria-labelledby="videoListLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="videoListLabel">Video List</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-
-        <ul>
-          <li><a href="Janelle_Shane_TED-Talk.mp4" target="_blank">Janelle Shane: Stealing Power</a></li>
-          <li><a href="Peter_Thiel_2014.mp4" target="_blank">Peter_Thiel Better than Competing</a></li>
-          <li><a href="Competition.mp4" target="_blank">Jensen Haung Competition</a></li>
-          <li><a href="Experimentation.mp4" target="_blank">Crazy Ideas</a></li>
-          <li><a href="multi-sensory_input.mp4" target="_blank">Multi-Sensory Input</a></li>
-          <li><a href="https://www.youtube.com/watch?v=6D0Un1RWggA" target="_blank">Chaos Engineering</a></li>
-        </ul>
-
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  <!-- Modal -->
+  <div class="modal fade " id="introvideo" tabindex="-1" role="dialog" aria-labelledby="introvideoLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="introvideolLabel">Introduction Video</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video width="100%" controls>
+            <source src="https://github.com/mstatt/decoding_data_science/raw/main/DDS_Intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
 
 
-<!-- Modal -->
-<div class="modal fade " id="stealingpower" tabindex="-1" role="dialog" aria-labelledby="stealingpowerLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="stealingpowerLabel">Janelle Shane A.I. Stealing Power</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="Janelle_Shane_TED-Talk.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+  <!-- Modal -->
+  <div class="modal fade " id="videoList" tabindex="-1" role="dialog" aria-labelledby="videoListLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="videoListLabel">Video List</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <ul>
+            <li><a href="Janelle_Shane_TED-Talk.mp4" target="_blank">Janelle Shane: Stealing Power</a></li>
+            <li><a href="Peter_Thiel_2014.mp4" target="_blank">Peter Thiel Happy Companies</a></li>
+            <li><a href="Competition.mp4" target="_blank">Jensen Huang on Competing</a></li>
+            <li><a href="Experimentation.mp4" target="_blank">H.P. CTO Crazy Ideas</a></li>
+            <li><a href="multi-sensory_input.mp4" target="_blank">Yann LeCun Multi-Sensory</a></li>
+            <li><a href="https://www.youtube.com/watch?v=6D0Un1RWggA" target="_blank">Chaos Engineering</a></li>
+            <li><a href="https://www.youtube.com/watch?v=WEaiazReynE" target="_blank">Falcons.ai</a></li>
+          </ul>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 
 
-<!-- Modal -->
-<div class="modal fade " id="petertheil" tabindex="-1" role="dialog" aria-labelledby="petertheilLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="petertheilLabel">Peter Thiel on Competing</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="Peter_Thiel_2014.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+  <!-- Modal -->
+  <div class="modal fade " id="stealingpower" tabindex="-1" role="dialog" aria-labelledby="stealingpowerLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="stealingpowerLabel">Janelle Shane A.I. Stealing Power</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video width="100%" controls>
+            <source src="Janelle_Shane_TED-Talk.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- Modal -->
-<div class="modal fade " id="jensenH" tabindex="-1" role="dialog" aria-labelledby="jensenHLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="jensenHLabel">Jensen Huang on Competing</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="Competition.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+  <!-- Modal -->
+  <div class="modal fade " id="petertheil" tabindex="-1" role="dialog" aria-labelledby="petertheilLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="petertheilLabel">Peter Thiel Happy Companies</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video width="100%" controls>
+            <source src="Peter_Thiel_2014.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Modal -->
-<div class="modal fade " id="crazyIdeas" tabindex="-1" role="dialog" aria-labelledby="crazyIdeasLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="crazyIdeasLabel">H.P. CTO Crazy Ideas</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="Experimentation.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade " id="multisensory" tabindex="-1" role="dialog" aria-labelledby="multisensoryLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="multisensoryLabel">Yann LeCun Multi-Sensory</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <video width="100%" controls>
-          <source src="multi-sensory_input.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+  <!-- Modal -->
+  <div class="modal fade " id="jensenH" tabindex="-1" role="dialog" aria-labelledby="jensenHLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="jensenHLabel">Jensen Huang on Competing</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video width="100%" controls>
+            <source src="Competition.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <!-- Modal -->
+  <div class="modal fade " id="crazyIdeas" tabindex="-1" role="dialog" aria-labelledby="crazyIdeasLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="crazyIdeasLabel">H.P. CTO Crazy Ideas</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video width="100%" controls>
+            <source src="Experimentation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade " id="multisensory" tabindex="-1" role="dialog" aria-labelledby="multisensoryLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="multisensoryLabel">Yann LeCun Multi-Sensory</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video width="100%" controls>
+            <source src="multi-sensory_input.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
