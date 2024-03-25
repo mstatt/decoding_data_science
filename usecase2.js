@@ -62,7 +62,7 @@ function init() {
                         id: "NLP_H1",
                         name: "Stealing Power",
                         data: {
-                            relation: '<h4>A.I. Stealing Energy</h4><b>Description:</b>The danger of artificial intelligence isnt that its going to rebel against us, but that its going to do exactly what we ask it to do, says AI researcher Janelle Shane. Sharing the weird, sometimes alarming antics of AI algorithms as they try to solve human problems -- like creating new ice cream flavors or recognizing cars on the road -- Shane shows why AI doesnt yet measure up to real brains. <br/>The research spoken about by Janelle Shane regarding AI hacking math errors in simulations to steal energy.  <br/><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#stealingpower">Stealing Power</button> <br/> <a href="The Surprising Creativity of Digital Evolution.pdf" target="_blank">Research Paper</a><br/><a href="Free-Energy.png" target="_blank">Specific Content</a>'
+                            relation: '<h4>A.I. Stealing Energy</h4><b>Description:</b>The danger of artificial intelligence isnt that its going to rebel against us, but that its going to do exactly what we ask it to do, says AI researcher Janelle Shane. Sharing the weird, sometimes alarming antics of AI algorithms as they try to solve human problems -- like creating new ice cream flavors or recognizing cars on the road -- Shane shows why AI doesnt yet measure up to real brains. <br/>The research spoken about by Janelle Shane regarding AI hacking math errors in simulations to steal energy.  <br/><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#stealingpower">Stealing Power</button> <br/> <a href="The Surprising Creativity of Digital Evolution.pdf" target="_blank">Research Paper(PDF)</a><br/><a href="Free-Energy.png" target="_blank">Specific Content</a>'
                         },
                         children: []
                     },
@@ -361,7 +361,7 @@ function init() {
                                 id: "Respon_R1G",
                                 name: "Platform Weaponization",
                                 data: {
-                                    relation: '<h4>Can this be weaponized?</h4><b>Description:</b><br/>Who would benefit if your solution was weaponized?<br/> <br/><a href="Platform Weaponization - Wikipedia.PDF.pdf" target="_blank">Graphic</a>'
+                                    relation: '<h4>Can this be weaponized?</h4><b>Description:</b><br/>Who would benefit if your solution was weaponized?<br/> <br/><a href="Platform Weaponization - Wikipedia.PDF.pdf" target="_blank">PDF</a>'
                                 },
                                 children: [
                                 ]
