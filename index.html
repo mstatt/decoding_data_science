@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>MJS for Decoding Data Science</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Description" content="FALCONS.AI" />
+    <meta name="Keywords" content="FALCONS.AI" />
+    <meta name="copyright" content="FALCONS.AI 2022" />
+    <meta name="Distribution" content="Global" />
+    <meta name="Rating" content="General" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="cache-control" content="max-age=604800" />
+    <meta http-equiv="cache-control" content="Public" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://falcons.ai/assets/images/icons-red/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://falcons.ai/assets/images/icons-red/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://falcons.ai/assets/images/icons-red/favicon-16x16.png"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-TileColor" content="#00E5EE" />
+    <meta name="theme-color" content="#00E5EE" />
+    <style>
+      body {
+        background-color: #000000;
+      }
+
+.m1{
+  background-color: 000000:
+  width: 100%;
+}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link type="text/css" href="base.css" rel="stylesheet" />
+    <link type="text/css" href="RGraph.css" rel="stylesheet" />
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="jit-yc.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="usecase2.js"
+    ></script>
+        <script>
+    function openPopup(videoUrl, width, height) {
+      var left = (screen.width - width) / 2;
+      var top = (screen.height - height) / 2;
+      var popup = window.open('', '_blank', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left);
+
+      var videoTag = '<video width="' + width + '" height="' + height + '" controls><source src="' + videoUrl + '" type="video/mp4"></video>';
+      popup.document.write(videoTag);
+    }
+</script>
+  </head>
+  <body onload="init();">
+    <main role="main">
+      <div class="row">
+        <div id="content">
+          <div id="container">
+            <div id="center-container"><div id="infovis"></div></div>
+            <div id="right-container">
+              <footer class="my-sm-3 border-bottom">
+                <center>
+                  <h3 class="my-0 font-weight-normal">
+                   <a href="http://falcons.ai" target="_blank"> Falcons.AI </a>
+                  </h3>
+                  and Decoding Data Science
+                
+
+                
+</center>
+
+              <br/><br/>
+              </footer>
+              <div id="inner-details"></div>
+              <hr>
+              <h3>Videos</h3>
+              <ul>
+              <li><a href="Janelle_Shane_TED-Talk.mp4" target="_blank">Janelle Shane: Stealing Power</a></li>
+              <li><a href="Peter_Thiel_2014.mp4"  target="_blank">Peter_Thiel Better than Competing</a></li>
+              <li><a href="Competition.mp4"  target="_blank">Jensen Huang Competition</a></li>
+              <li><a href="Experimentation.mp4"  target="_blank">Crazy Ideas</a></li>
+              <li><a href="multi-sensory_input.mp4"  target="_blank">Multi-Sensory Input</a></li>
+              <li><a href="https://www.youtube.com/watch?v=6D0Un1RWggA"  target="_blank">Chaos Engineering</a></li>
+              </ul>
+              <footer class="border-top">
+                <div class="col-12 col-md">
+                  <div><a href="http://falcons.ai" target="_blank"><img src="logo.png"></a>
+                  </div>
+                  <font class="d-block mb-3 text-muted"
+                    >Copyright © 2024 FALCONS.AI</font
+                  >
+                </div>
+              </footer>
+            </div>
+            <div id="log"></div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+
+<div id="fsModal"
+     class="modal animated bounceIn modal-dialog m1"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="myModalLabel"
+     aria-hidden="true">
+
+  <!-- dialog -->
+  <div class="modal-dialog ">
+
+    <!-- content -->
+    <div class="modal-content">
+
+      <!-- header -->
+      <div class="modal-header">
+        <h1 id="myModalLabel"
+            class="modal-title">
+          Introduction Video
+        </h1>
+      </div>
+      <!-- header -->
+      
+      <!-- body -->
+      <div class="modal-body">
+         <video width="100%" controls>
+              <source src="DDS_Intro.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+         </video>
+
+
+
+      </div>
+      <!-- body -->
+
+      <!-- footer -->
+      <div class="modal-footer">
+        <button class="btn btn-secondary"
+                data-dismiss="modal">
+          close
+        </button>
+
+      </div>
+      <!-- footer -->
+
+    </div>
+    <!-- content -->
+
+  </div>
+  <!-- dialog -->
+
+</div>
+<!-- modal -->
+
+  </body>
+</html>
