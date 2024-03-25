@@ -138,14 +138,14 @@ function init() {
                         id: "PROC_1_Ground_Rules",
                         name: "Ground Rules",
                         data: {
-                            relation: '<h4>Basic Rules</h4><b>Description:</b><br/> I try to emphasize the impoortance of having smart people working on NEW things. <br/>Why small or "MeToo" projects suck? They waste intellectual capacity.<br/>Imagine a team of flies connecting to your brain to find the next pile of shit, how under/mis-used would you feel. <br/> <br/><a href="Peter_Thiel_2014.mp4"  target="_blank">Peter_Thiel Better than Competing</a> <br/><br/><a href="Competition.mp4"  target="_blank">Jensen Huang Competition</a> <br/><br/>Avoid the Intellectual Laziness of the following: <ul> <li>Translation Services</li> <li>Recommendation Engine</li> <li>Summarization Service</li> <li>Course Creation</li> <li>Marketing Campaigns Generator</li> <li>Creative Writing Services</li> <li>Personal Shopping Assistants</li> <li>Tone Detection and Sentiment Analysis</li> <li>Social Media Management</li> <li>Legal Document Review and Analysis</li> <li>Mood Tracking and Emotional Wellness Support</li> <li>Food & Nutrition Consultancy</li> <li>Personal Financial Management</li> <li>Event Planning Assistance</li> <li>Healthcare Consultancy</li> <li>Chat Therapists</li> <li>Sales /Customer Service Chatbots</li> <li>Recipie/Cooking Assistants</li> <li>R.A.G. Solutions</li> </ul> <p>*** Try to stay away from generators unless its a uniquely novel solution*** <br/><a href="https://www.youtube.com/watch?v=6D0Un1RWggA"  target="_blank">Chaos Engineering</a> <br/>'
+                            relation: '<h4>Basic Rules</h4><b>Description:</b><br/> I try to emphasize the impoortance of having smart people working on NEW things. <br/>Why small or "MeToo" projects suck? They waste intellectual capacity.<br/>Imagine a team of flies connecting to your brain to find the next pile of shit, how under/mis-used would you feel. <br/> <br/><a href="Peter_Thiel_2014.mp4"  target="_blank">Peter_Thiel Better than Competing</a> <br/><br/>Avoid the Intellectual Laziness of the following: <ul> <li>Translation Services</li> <li>Recommendation Engine</li> <li>Summarization Service</li> <li>Course Creation</li> <li>Marketing Campaigns Generator</li> <li>Creative Writing Services</li> <li>Personal Shopping Assistants</li> <li>Tone Detection and Sentiment Analysis</li> <li>Social Media Management</li> <li>Legal Document Review and Analysis</li> <li>Mood Tracking and Emotional Wellness Support</li> <li>Food & Nutrition Consultancy</li> <li>Personal Financial Management</li> <li>Event Planning Assistance</li> <li>Healthcare Consultancy</li> <li>Chat Therapists</li> <li>Sales /Customer Service Chatbots</li> <li>Recipie/Cooking Assistants</li> <li>R.A.G. Solutions</li> </ul> <p>*** Try to stay away from generators unless its a uniquely novel solution*** <br/><a href="https://www.youtube.com/watch?v=6D0Un1RWggA"  target="_blank">Chaos Engineering</a> <br/>'
                         },
                         children: [
                             {
                                 id: "CVsdfgsdf_R1",
                                 name: "Innovation",
                                 data: {
-                                    relation: '<h4>Innovation</h4><b>Description:</b><br/> Lets pick a direction, are we going to solve a problem or capitalize on an opportunity?<br/><br/><br/> '
+                                    relation: '<h4>Innovation</h4><b>Description:</b><br/> Lets pick a direction, are we going to solve a problem or capitalize on an opportunity?<br/><br/><a href="Competition.mp4"  target="_blank">Jensen Huang Competition</a> <br/><br/> '
                                 },
                                 children: [
 
@@ -331,7 +331,7 @@ function init() {
                                 id: "Respon_R1",
                                 name: "Code Base",
                                 data: {
-                                    relation: '<h4>Poor Coding and A.I. Generated Technical Debt</h4><b>Description:</b><br/>The use of A.I. code generators is not so secure.<br/> <br/><a href="a5ccb9b4-2ad9-4e99-b7c8-822c7dbafd79.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>Poor Coding and A.I. Generated Technical Debt</h4><b>Description:</b><br/>The use of A.I. code generators is not so secure.<br/> <br/><a href="a5ccb9b4-2ad9-4e99-b7c8-822c7dbafd79.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -341,7 +341,7 @@ function init() {
                                 id: "Respon_R1Z",
                                 name: "Unintended Uses",
                                 data: {
-                                    relation: '<h4>Understand potential and Unintended Use Cases</h4><b>Description:</b><br/>Understand potential unintended use cases and plan around as much as possible.<br/> <br/><a href="internal -2.png" target="_blank">Article</a>'
+                                    relation: '<h4>Understand potential and Unintended Use Cases</h4><b>Description:</b><br/>Understand potential unintended use cases and plan around as much as possible.<br/> <br/><a href="internal -2.png" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -351,7 +351,7 @@ function init() {
                                 id: "Respon_R1X",
                                 name: "Decomissioning",
                                 data: {
-                                    relation: '<h4>What is your Decomm strategy</h4><b>Description:</b><br/>Specifically in the medical space, what happens when the service no longer has operational capital or initiatives change?<br/> This provides a lesson on the importance of keeping tabs on your competitors, you may be able to sell/port users over from your service. <br/><a href="decomm.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>What is your Decomm strategy</h4><b>Description:</b><br/>Specifically in the medical space, what happens when the service no longer has operational capital or initiatives change?<br/> This provides a lesson on the importance of keeping tabs on your competitors, you may be able to sell/port users over from your service. <br/><a href="decomm.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -361,7 +361,7 @@ function init() {
                                 id: "Respon_R1G",
                                 name: "Platform Weaponization",
                                 data: {
-                                    relation: '<h4>Can this be weaponized?</h4><b>Description:</b><br/>Who would benefit if your solution was weaponized?<br/> <br/><a href="Platform Weaponization - Wikipedia.PDF.pdf" target="_blank">Article</a>'
+                                    relation: '<h4>Can this be weaponized?</h4><b>Description:</b><br/>Who would benefit if your solution was weaponized?<br/> <br/><a href="Platform Weaponization - Wikipedia.PDF.pdf" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -372,7 +372,7 @@ function init() {
                                 name: "Well Thought",
 
                                 data: {
-                                    relation: '<h4>DO NOT MAKE IT WORSE</h4><b>Description:</b><br/>Of critical importance is to constantly review feedback of the solution ensuring that it is not making things worse<br/> <br/><a href="worse.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>DO NOT MAKE IT WORSE</h4><b>Description:</b><br/>Of critical importance is to constantly review feedback of the solution ensuring that it is not making things worse<br/> <br/><a href="worse.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
 
@@ -383,7 +383,7 @@ function init() {
                                 name: "Creating Disorders",
 
                                 data: {
-                                    relation: '<h4>Autophagy</h4><b>Description:</b><br/>Be careful when using synthetic data for model training.<br/> <br/><a href="disorder.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>Autophagy</h4><b>Description:</b><br/>Be careful when using synthetic data for model training.<br/> <br/><a href="disorder.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
 
@@ -403,7 +403,7 @@ function init() {
                                 id: "Respon_R1A",
                                 name: "Litigation",
                                 data: {
-                                    relation: '<h4>3rd Party Litigation</h4><b>Description:</b><br/>Be dilligent in understanding your exposure from vendor actions<br/> <br/><a href="2024-03-13 at 10.30.32 AM.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>3rd Party Litigation</h4><b>Description:</b><br/>Be dilligent in understanding your exposure from vendor actions<br/> <br/><a href="2024-03-13 at 10.30.32 AM.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -413,7 +413,7 @@ function init() {
                                 id: "Respon_R1B",
                                 name: "Critical Dependencies",
                                 data: {
-                                    relation: '<h4>Outsourced critical Dependencies</h4><b>Description:</b><br/>Be aware of what critical systems have been outsourced<br/> <br/><a href="2024-03-13 at 10.30.31 AM.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>Outsourced critical Dependencies</h4><b>Description:</b><br/>Be aware of what critical systems have been outsourced<br/> <br/><a href="2024-03-13 at 10.30.31 AM.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -424,7 +424,7 @@ function init() {
 
                                 name: "Contribution impacts?",
                                 data: {
-                                    relation: '<h4>What is happening to your beneficiaries?</h4><b>Description:</b><br/>Pay attention to what is happening with your partner and beneficiary organizations.<br/> <br/><a href="partner.jpeg" target="_blank">Article</a>'
+                                    relation: '<h4>What is happening to your beneficiaries?</h4><b>Description:</b><br/>Pay attention to what is happening with your partner and beneficiary organizations.<br/> <br/><a href="partner.jpeg" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -434,7 +434,7 @@ function init() {
                                 id: "Respon_R1C",
                                 name: "Who owns what?",
                                 data: {
-                                    relation: '<h4>Who owns how much?</h4><b>Description:</b><br/>Understand how much of your solution providers own or are entitled to.<br/> <br/><a href="Screenshot from 2024-03-13 10-48-59.png" target="_blank">Article</a>'
+                                    relation: '<h4>Who owns how much?</h4><b>Description:</b><br/>Understand how much of your solution providers own or are entitled to.<br/> <br/><a href="Screenshot from 2024-03-13 10-48-59.png" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -446,7 +446,7 @@ function init() {
                         id: "CV1_M1",
                         name: "External Actors",
                         data: {
-                            relation: '<h4>External Actors</h4><b>Description:</b><br/>External actors of a software company refer to individuals, organizations, or entities outside of the company that interact with its products, services, or operations. These can include customers, partners, suppliers, regulatory bodies, and competitors. External actors play a crucial role in shaping the companys market dynamics, revenue streams, and overall success. Managing relationships and interactions with these external actors effectively is essential for the software company to thrive in a competitive environment.<br/>Various Jail break methods: <br/><a href="prompt_1.png" target="_blank">Article</a><br/><a href="prompt_2.png" target="_blank">Article</a><br/><a href="prompt_3.jpeg" target="_blank">Article</a><br/><a href="prompt_4.png" target="_blank">Article</a><br/><a href="prompt_5.png" target="_blank">Article</a><br/><a href="prompt_6.png" target="_blank">Article</a>'
+                            relation: '<h4>External Actors</h4><b>Description:</b><br/>External actors of a software company refer to individuals, organizations, or entities outside of the company that interact with its products, services, or operations. These can include customers, partners, suppliers, regulatory bodies, and competitors. External actors play a crucial role in shaping the companys market dynamics, revenue streams, and overall success. Managing relationships and interactions with these external actors effectively is essential for the software company to thrive in a competitive environment.<br/>Various Jail break methods: <br/><a href="prompt_1.png" target="_blank">Graphic</a><br/><a href="prompt_2.png" target="_blank">Graphic</a><br/><a href="prompt_3.jpeg" target="_blank">Graphic</a><br/><a href="prompt_4.png" target="_blank">Graphic</a><br/><a href="prompt_5.png" target="_blank">Graphic</a><br/><a href="prompt_6.png" target="_blank">Graphic</a>'
                         },
                         children: [
                         ]
@@ -462,7 +462,7 @@ function init() {
                                 id: "Respon_R1D",
                                 name: "Collateral Damage",
                                 data: {
-                                    relation: '<h4>Are your resources a target?</h4><b>Description:</b><br/>What is the scope of your resources and dependent systems?<br/> <br/><a href="Screenshot from 2024-03-13 10-49-23.png" target="_blank">Article</a>'
+                                    relation: '<h4>Are your resources a target?</h4><b>Description:</b><br/>What is the scope of your resources and dependent systems?<br/> <br/><a href="Screenshot from 2024-03-13 10-49-23.png" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -472,7 +472,7 @@ function init() {
                                 id: "Respon_R1E",
                                 name: "Regulatory Concerns",
                                 data: {
-                                    relation: '<h4>Regulatory Concerns</h4><b>Description:</b><br/>Understand any regulatory impacts.<br/> <br/><a href="Screenshot from 2024-03-12 14-06-40.png" target="_blank">Article</a>'
+                                    relation: '<h4>Regulatory Concerns</h4><b>Description:</b><br/>Understand any regulatory impacts.<br/> <br/><a href="Screenshot from 2024-03-12 14-06-40.png" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
@@ -482,7 +482,7 @@ function init() {
                                 name: "Unforseeable Impacts",
                                 data: {
 
-                                    relation: '<h4>Things you cant factor</h4><b>Description:</b><br/>Be aware of the most unthinkable<br/> <br/><a href="Screenshot from 2024-03-13 11-38-14.png" target="_blank">Article</a>'
+                                    relation: '<h4>Things you cant factor</h4><b>Description:</b><br/>Be aware of the most unthinkable<br/> <br/><a href="Screenshot from 2024-03-13 11-38-14.png" target="_blank">Graphic</a>'
                                 },
                                 children: [
                                 ]
