@@ -46,7 +46,7 @@ function init() {
                 id: "TP_1D",
                 name: "Start: Talking Points",
                 data: {
-                    relation: '<h4>Talking Points</h4><b>Description:</b><br/><ul><li><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#crazyIdeas">H.P. CTO Crazy Ideas</button></li> <li><a href="benefits2.jpeg" target="_blank">Gaining Knowledge</a> </li><li><a href="Benefits.jpeg" target="_blank">Risk is rewarded</a> </li><li>Just opinions and observations, NO ONE has a monopoly on the CORRECT perspective</li><li>Data Science is to A.I. what fuel is to engines.</li><li>There are only 3 domains of A.I. 1) Machine Learning, N.L.P. and Computer Vision. THATS ALL.</li><li>The future of our world will be Video/Audio, not text or documents. Its how we see and process the world so A.I. will adjust and is adjusting. Thats the importance of pushing further in these domains.<br/><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#multisensory">Yann LeCun Multi-Sensory</button></li> <br/><li>A.I. will not be the downfall of Developers, in the near term (Devin from Cognition and Jensen Haung telling people to stop learning to code)</li> <li>What is your "End Game"? Build tech, a company or engineer humanity? (Social Media has engineered humanity-Doom Scrolling, Shrinking attention spans)</li> <li>Make it matter, Make it Impactful, Make it Important, Make it better and bigger.</li> <li>Software matters, it runs our world, what we build and deploy affects real human lives. YOU MATTER, WHAT you build Matters.</li> <li>If you are the 1st you succeeded.</li> <li>Falcons.ai is all about 2 things: A.I. for good and to build something the internet has never seen before!</li><li>Falcons.ai is a collaboration and because he understands this, I have never told Nizam, NO</li> <li>PreciseAG, Videre, Fear Mongering, Distress Signals Analysis, Unintended Consequemnces, Plague Detection, Cogito, Tempestas, NSFW detection (500k)</li> </ul>'
+                    relation: '<h4>Talking Points</h4><b>Description:</b><br/><ul><li>Just opinions and observations, NO ONE has a monopoly on the CORRECT perspective</li><li><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#crazyIdeas">H.P. CTO Crazy Ideas</button></li> <li><a href="benefits2.jpeg" target="_blank">Gaining Knowledge</a> </li><li><a href="Benefits.jpeg" target="_blank">Risk is rewarded</a> </li><li>Data Science is to A.I. what fuel is to engines.</li><li>There are only 3 domains of A.I. 1) Machine Learning, N.L.P. and Computer Vision. THATS ALL.</li><li>The future of our world will be Video/Audio, not text or documents. Its how we see and process the world so A.I. will adjust and is adjusting. Thats the importance of pushing further in these domains.<br/><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#multisensory">Yann LeCun Multi-Sensory</button></li> <br/><li>A.I. will not be the downfall of Developers, in the near term (Devin from Cognition and Jensen Haung telling people to stop learning to code)</li> <li>What is your "End Game"? Build tech, a company or engineer humanity? (Social Media has engineered humanity-Doom Scrolling, Shrinking attention spans)</li> <li>Make it matter, Make it Impactful, Make it Important, Make it better and bigger.</li> <li>Software matters, it runs our world, what we build and deploy affects real human lives. YOU MATTER, WHAT you build Matters.</li> <li>If you are the 1st you succeeded.</li> <li>Falcons.ai is all about 2 things: A.I. for good and to build something the internet has never seen before!</li><li>Falcons.ai is a collaboration and because he understands this, I have never told Nizam, NO</li> <li>PreciseAG, Videre, Fear Mongering, Distress Signals Analysis, Unintended Consequemnces, Plague Detection, Cogito, Tempestas, NSFW detection (500k)</li> </ul>'
                 },
                 children: []
             },
@@ -260,7 +260,7 @@ function init() {
                                                                         id: "ep_1C",
                                                                         name: "Emergent_Properties",
                                                                         data: {
-                                                                            relation: "<h4>Emergent Properties</h4><b>Description:</b><br/>Emergent properties are characteristics or behaviors that emerge in complex systems as a result of interactions between their components. These properties are not directly predictable from the properties of individual components alone. Instead, they arise from the collective behavior of the system, often exhibiting novel or unexpected features that cannot be attributed to any single component in isolation."
+                                                                            relation: "<h4>Emergent Properties</h4><b>Description:</b><br/>Emergent properties are characteristics or behaviors that emerge in complex systems as a result of interactions between their components. These properties are not directly predictable from the properties of individual components alone. Instead, they arise from the collective behavior of the system, often exhibiting novel or unexpected features that cannot be attributed to any single component in isolation.<br/><br/><a href='complexity.png' target='_blank'>Unknown</a>"
                                                                         },
                                                                         children: [
                                                                             {
@@ -446,9 +446,40 @@ function init() {
                         id: "CV1_M1",
                         name: "External Actors",
                         data: {
-                            relation: '<h4>External Actors</h4><b>Description:</b><br/>External actors of a software company refer to individuals, organizations, or entities outside of the company that interact with its products, services, or operations. These can include customers, partners, suppliers, regulatory bodies, and competitors. External actors play a crucial role in shaping the companys market dynamics, revenue streams, and overall success. Managing relationships and interactions with these external actors effectively is essential for the software company to thrive in a competitive environment.<br/>Various Jail break methods: <br/><a href="prompt_1.png" target="_blank">Graphic</a><br/><a href="prompt_2.png" target="_blank">Graphic</a><br/><a href="prompt_3.jpeg" target="_blank">Graphic</a><br/><a href="prompt_4.png" target="_blank">Graphic</a><br/><a href="prompt_5.png" target="_blank">Graphic</a><br/><a href="prompt_6.png" target="_blank">Graphic</a>'
+                            relation: '<h4>External Actors</h4><b>Description:</b><br/>External actors of a software company refer to individuals, organizations, or entities outside of the company that interact with its products, services, or operations. These can include customers, partners, suppliers, regulatory bodies, and competitors. External actors play a crucial role in shaping the companys market dynamics, revenue streams, and overall success. Managing relationships and interactions with these external actors effectively is essential for the software company to thrive in a competitive environment.'
                         },
                         children: [
+
+
+
+                            {
+                                id: "CV1_M1A",
+                                name: "External Corporate Actors",
+                                data: {
+                                    relation: '<h4>External Actors</h4><b>Description:</b><br/>External corporate actors may not be targeting you directly but your users.<br/><br/><a href="snooping.png" target="_blank">Meta Scandal</a>'
+                                },
+                                children: [
+                                ]
+                            },
+                                                {
+                                id: "CV1_M1B",
+                                name: "External Individual Actors",
+                                data: {
+                                    relation: '<h4>External Actors</h4><b>Description:</b><br/>External individual actors refers to those specifically attempting to break or disrupt your servive. In this domain we are specifically referring to the corruption of an LLM.<br/>Various Jail break methods: <br/><a href="prompt_1.png" target="_blank">Graphic</a><br/><a href="prompt_2.png" target="_blank">Graphic</a><br/><a href="prompt_3.jpeg" target="_blank">Graphic</a><br/><a href="prompt_4.png" target="_blank">Graphic</a><br/><a href="prompt_5.png" target="_blank">Graphic</a><br/><a href="prompt_6.png" target="_blank">Graphic</a>'
+                                },
+                                children: [
+                                ]
+                            },
+
+
+
+
+
+
+
+
+
+
                         ]
                     },
                     {
