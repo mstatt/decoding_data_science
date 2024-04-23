@@ -307,7 +307,7 @@ function init() {
                 id: "RESP_1",
                 name: ".04 Responsibilities",
                 data: {
-                    relation: "<h4>New Responsibilities with A.I.</h4><b>Description:</b>AI solutions companies are tasked with developing, implementing, and maintaining artificial intelligence technologies for various industries. Their responsibilities encompass designing machine learning algorithms tailored to specific business needs, deploying AI systems to optimize operations and decision-making processes, and ensuring data privacy and security compliance. Additionally, these companies often provide ongoing support, training, and updates to ensure the effectiveness and efficiency of their AI solutions."
+                    relation: '<h4>New Responsibilities with A.I.</h4><b>Description:</b>AI solutions companies are tasked with developing, implementing, and maintaining artificial intelligence technologies for various industries. Their responsibilities encompass designing machine learning algorithms tailored to specific business needs, deploying AI systems to optimize operations and decision-making processes, and ensuring data privacy and security compliance. Additionally, these companies often provide ongoing support, training, and updates to ensure the effectiveness and efficiency of their AI solutions.<br/>Mustafa Suleyman speaks to this directly here:<a href="Aversion.mp4" target="_blank">Mustafa Suleyman: Aversion</a>'
                 },
                 children: [
                     {
