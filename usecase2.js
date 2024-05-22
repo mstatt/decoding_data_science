@@ -37,7 +37,7 @@ function init() {
                 id: "PS_1D",
                 name: ".05 Problem Set",
                 data: {
-                    relation: "<h4>Task</h4><b>Description:</b><br/>In a general sense, a problem set is a collection of exercises or questions designed to test and develop your knowledge and skills in a particular subject.<br/><br/><b>D.D.S. Problem Set:</b> <br/><u>Develop a Novel solution using A.I. (3 hours)</u> <ul> <li>Determine Problem or Opportunity: (30min)</li> <li>Develp Course of Action: (30 min)<br/> Determine technologies: Model, API, Hosting, UI<br/> <li>Determine needs: Data, Compute, etc.</li> <li>Considerations:<br/> Data, Testing, Domain, (public) Github repository</li> <li>Development: (1 hour)</li> <li>Testing/Fixes: (30 min)</li> <li>Deployment (30 min)</li> </ul><br/><font color='Red'>*** You are responsible for all required resources. ***</font>"
+                    relation: "<h4>Task</h4><b>Description:</b><br/>In a general sense, a problem set is a collection of exercises or questions designed to test and develop your knowledge and skills in a particular subject.<br/><br/><b>D.D.S. Problem Set:</b> <br/><u>Develop a Facial Emotion Recognition Model and UI for uploading a video.</u> <br/><br/> </ul><br/><font color='Red'>*** You are responsible for all required resources. ***</font>"
                 },
                 children: []
             },
