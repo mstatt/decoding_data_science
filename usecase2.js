@@ -527,7 +527,7 @@ function init() {
 
         ],
         data: {
-            relation: "<h4>Michael Stattelman speaking on A.I. Innovation</h4><br/><center><button type='button' class='btn btn-danger' data-toggle='modal' data-target='#introvideo'>Introduction Video</button></center><br/><br/><b>Breakdown is as follows:</b><ul><li>Talking Points</li><li>Tell me something Interesting.</li><li>Quick LLM</li><li>Innovation Process</li><li>Responsibilities</li><li>Problem Set</li></ul><br/><font color=#FF0000>***Click the Nodes in the graph to navigate***</font><br/><font color=#FF0000>***Scroll your mouse for zoom***</font>"
+            relation: "<h4>Michael Stattelman speaking on A.I. Innovation</h4><br/><center><img src='DDS_Presentation.png'><br/><button type='button' class='btn btn-danger' data-toggle='modal' data-target='#introvideo'>Introduction Video</button></center><br/><br/><b>Breakdown is as follows:</b><ul><li>Talking Points</li><li>Tell me something Interesting.</li><li>Quick LLM</li><li>Innovation Process</li><li>Responsibilities</li><li>Problem Set</li></ul><br/><font color=#FF0000>***Click the Nodes in the graph to navigate***</font><br/><font color=#FF0000>***Scroll your mouse for zoom***</font>"
         }
     };
     //end
